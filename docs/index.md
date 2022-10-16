@@ -14,8 +14,8 @@ Efforts towards improved predictions using E3SM are also restricted by the lack 
 the current E3SM’s river model on DOE’s exascale-class supercomputers, which have heterogeneous computing architectures.
 
 <figure markdown>
-  ![Image title](https://github.com/RDycore/RDycore.github.io/blob/main/images/research_schematic_v2.png){ width="300" }
-  <figcaption>Image caption</figcaption>
+  ![Research schematic](images/research_schematic_v2.png){ width="300" }
+  <figcaption>Research overview</figcaption>
 </figure>
 
 The project objectives of this interdisciplinary research are to develop a 
