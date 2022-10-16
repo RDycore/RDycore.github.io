@@ -1,11 +1,11 @@
-- Mark Adams (co-PI): Lawerence Berekely National Laboratory
-- Gautam Bisht (PI): Pacific Northwest National Laboratory
-- Jed Brown (co-PI): University of Colorado Boulder
-- Darren Engwirda (co-PI): Los Alamos National Laboratory
-- Dongyu Feng: Pacific Northwest National Laboratory
-- Dalei Hao: Pacific Northwest National Laboratory
-- Jeffery Johnson (co-PI): Cohere Consulting
-- Matt Kneply (co-PI): University at Buffalo
-- Mukesh Kumar (co-PI): University of Alabama
-- Zeli Tan (co-PI): Pacific Northwest National Laboratory
-- Donghui Xu: Pacific Northwest National Laboratory
+- Mark Adams (co-PI): Lawerence Berekely National Laboratory [:simple-github:](http://github.com/markadams)
+- Gautam Bisht (PI): Pacific Northwest National Laboratory [:simple-github:](http://github.com/bishtgautam)
+- Jed Brown (co-PI): University of Colorado Boulder [:simple-github:](http://github.com/jedbrown)
+- Darren Engwirda (co-PI): Los Alamos National Laboratory [:simple-github:](http://github.com/dengwirda)
+- Dongyu Feng: Pacific Northwest National Laboratory [:simple-github:](http://github.com/fdongyu)
+- Dalei Hao: Pacific Northwest National Laboratory [:simple-github:](http://github.com/daleihao)
+- Jeffery Johnson (co-PI): Cohere Consulting [:simple-github:](http://github.com/jeff-cohere)
+- Matt Kneply (co-PI): University at Buffalo [:simple-github:](http://github.com/knepley)
+- Mukesh Kumar (co-PI): University of Alabama [:simple-github:](http://github.com/MukeshKumar-Hydrology)
+- Zeli Tan (co-PI): Pacific Northwest National Laboratory [:simple-github:](http://github.com/tanzeli1982)
+- Donghui Xu: Pacific Northwest National Laboratory [:simple-github:](http://github.com/donghuix)
