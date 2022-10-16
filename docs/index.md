@@ -13,10 +13,7 @@ and coarse spatial resolution, pose limits.
 Efforts towards improved predictions using E3SM are also restricted by the lack of portability of 
 the current E3SM’s river model on DOE’s exascale-class supercomputers, which have heterogeneous computing architectures.
 
-<figure markdown>
-  ![Research schematic](images/research_schematic_v2.png){ width="300" }
-  <figcaption>Research overview</figcaption>
-</figure>
+![Research schematic](images/research_schematic_v2.png)
 
 The project objectives of this interdisciplinary research are to develop a 
 rigorously verified and validated **river dynamical core (RDycore)** for E3SM, 

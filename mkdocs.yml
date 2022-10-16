@@ -2,6 +2,8 @@ site_name: "RDycore: Capturing the Dynamics of Compound Flooding in E3SM"
 
 nav:
   - 'index.md'
+  - 'project_objectives.md'
+  - 'team.md'
 
 edit_uri: ""
 
