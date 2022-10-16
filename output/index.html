@@ -8,19 +8,19 @@
       
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.0, mkdocs-material-8.5.6">
     
     
       
-        <title>Skywalker: A Parameter Study Tool for Box Models</title>
+        <title>Output Format (Python) - Skywalker: A Parameter Study Tool for Box Models</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.20d9efc8.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.20d9efc8.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.cbb835fc.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
         
       
       
@@ -37,7 +37,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#output-format-python" class="md-skip">
           Skip to content
         </a>
       
@@ -80,7 +80,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Skywalker: A Parameter Study Tool for Box Models" class="md-header__button md-logo" aria-label="Skywalker: A Parameter Study Tool for Box Models" data-md-component="logo">
+    <a href=".." title="Skywalker: A Parameter Study Tool for Box Models" class="md-header__button md-logo" aria-label="Skywalker: A Parameter Study Tool for Box Models" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Output Format (Python)
             
           </span>
         </div>
@@ -200,7 +200,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Skywalker: A Parameter Study Tool for Box Models" class="md-nav__button md-logo" aria-label="Skywalker: A Parameter Study Tool for Box Models" data-md-component="logo">
+    <a href=".." title="Skywalker: A Parameter Study Tool for Box Models" class="md-nav__button md-logo" aria-label="Skywalker: A Parameter Study Tool for Box Models" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -229,6 +229,66 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_start/" class="md-nav__link">
+        Quick Start
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../input/" class="md-nav__link">
+        Input Format (YAML)
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -241,12 +301,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Overview
+          Output Format (Python)
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
-        Overview
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Output Format (Python)
       </a>
       
         
@@ -265,8 +325,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#acknowledgements" class="md-nav__link">
-    Acknowledgements
+  <a href="#nans" class="md-nav__link">
+    NaNs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#array-valued-outputs" class="md-nav__link">
+    Array-Valued Outputs
   </a>
   
 </li>
@@ -287,67 +354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="installation/" class="md-nav__link">
-        Installation
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="quick_start/" class="md-nav__link">
-        Quick Start
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="input/" class="md-nav__link">
-        Input Format (YAML)
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="output/" class="md-nav__link">
-        Output Format (Python)
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="api/" class="md-nav__link">
+      <a href="../api/" class="md-nav__link">
         The Skywalker API
       </a>
     </li>
@@ -362,7 +369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="example/" class="md-nav__link">
+      <a href="../example/" class="md-nav__link">
         Example: Van der Waals Gas
       </a>
     </li>
@@ -396,8 +403,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#acknowledgements" class="md-nav__link">
-    Acknowledgements
+  <a href="#nans" class="md-nav__link">
+    NaNs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#array-valued-outputs" class="md-nav__link">
+    Array-Valued Outputs
   </a>
   
 </li>
@@ -417,41 +431,104 @@
                   
 
 
-<h1 id="overview">Overview</h1>
-<p>Skywalker is a software library that allows you to construct and execute a
-program on an <strong>ensemble</strong>: a collection of sets of input parameters, each of
-which completely defines the behavior of the program. Each complete set of
-input parameters is a <strong>member</strong> of the ensemble, and your program can associate
-a set of outputs with each ensemble member.</p>
-<p>A Skywalker program accepts as input a <a href="input/">YAML file</a> that defines an
-ensemble. It then executes logic on each member of that ensemble, generating
-output. It collects this output, associating it with the input that produced it,
-and then writes all data for the entire ensemble into a <a href="output/">Python module</a>
-in a way that allows postprocessing to be easily performed.</p>
-<p>You can write a Skywalker program in C, C++, or Fortran. The code you'll write
-looks very similar in each of these languages. Here are some resources for you
-to use to solve your own problems with a Skywalker program:</p>
-<ul>
-<li>The <a href="installation/">Installation</a> guide shows you how to build and install
-  Skywalker.</li>
-<li>The <a href="quick_start/">Quick Start</a> guide shows you how to write a basic
-  Skywalker program.</li>
-<li>The <a href="api/">API</a> guide describes Skywalker's application programming
-  interface for all three languages.</li>
-<li>We've provided a detailed <a href="example/">example</a> that demonstrates how you can
-  use Skywalker to investigate a problem.</li>
-</ul>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Skywalker was developed as part of a close collaboration between climate
-scientists and software engineers as part of an effort to cross validate two
-implementations of an aerosol microphysics box model. This effort was funded by
-the Office of Science's <a href="https://science.osti.gov/ber">Biological and Environmental
-Research</a> Program as part of the
-<a href="https://climatemodeling.science.energy.gov/projects/enabling-aerosol-cloud-interactions-global-convection-permitting-scales-eagles">EAGLES project</a>,
-an effort to improve the treatment of aerosols in
-<a href="https://climatemodeling.science.energy.gov/projects/energy-exascale-earth-system-model">E3SM</a>,
-the Department of Energy's global climate model. The source code is available on
-<a href="https://github.com/eagles-project/skywalker">GitHub</a>.</p>
+<h1 id="output-format-python">Output Format (Python)</h1>
+<p>A Skywalker program writes all of its data (input parameters and output values)
+to a text file containing a Python module. The data in the Python module is
+structured in a regular way for easy use by postprocessing scripts. The module
+contains two Python variables:</p>
+<ol>
+<li><code>input</code>, an object whose fields list all of the input parameters specified in
+   the YAML input file, in the order in which they appear in the ensemble
+   created by Skywalker</li>
+<li><code>output</code>, an object whose fields list all of the output parameters
+   corresponding to the input paramaters, in the same order as the input
+   parameters.</li>
+<li><code>settings</code> (if settings are present), an object whose fields list all of the
+   driver-specific settings used to process the ensemble. All settings fields
+   are strings.</li>
+</ol>
+<p>Consider the <code>input</code> block from the example input file in the
+<a href="../input/">Input Format</a> section:</p>
+<div class="highlight"><pre><span></span><code>my_settings:
+  method = quadrature
+
+input:
+  lattice:
+    relative_humidity: [0.01, 1.00, 0.01]
+    temperature: [230.15, 300.15, 1]
+  fixed:
+    c_h2so4: 5e8 # [#/cc]
+    planetary_boundary_layer_height: 1100
+    height: 500
+    xi_nh3: 0
+</code></pre></div>
+<p>With this input, Skywalker constructs an ensemble whose members assume all
+possible combinations of its <code>lattice</code> parameters. There are 100 values for
+<code>relative_humidity</code>, 71 values for <code>temperature</code>, and a single value for all
+other parameters. So there are <span class="arithmatex">\(100 \times 71 = 7100\)</span> members in the resulting
+lattice ensemble.</p>
+<p>Suppose our program generates output variables <code>nucleation_rate</code> and
+<code>nucleation_threshold</code>, both of which depend on some or all of the input
+parameters. Here's how the resulting Python module might look.</p>
+<div class="highlight"><pre><span></span><code># This file was automatically generated by skywalker.
+
+from math import nan as nan
+
+# Object is just a dynamic container that stores input/output data.
+class Object(object):
+    pass
+
+# Settings are stored here.
+settings = Object()
+settings.method = &#39;quadrature&#39;
+
+# Input is stored here.
+input = Object()
+input.relative_humidity = [0.01, 0.02, 0.03, ..., 0.98, 0.99, 1.00, ]
+input.temperature = [230.15, 230.15, 230.15, ..., 300.15, 300.15, 300.15, ]
+input.c_h2so4 = [5e8, 5e8, 5e8, ..., 5e8, 5e8, 5e8, ]
+input.planetary_boundary_layer_height = [1100, 1100, 1100, ..., 1100, 1100, 1100, ]
+input.height = [500, 500, 500, ..., 500, 500, 500, ]
+
+# Output data is stored here.
+output = Object()
+output.nucleation_rate = [1.56031e+06, 4.00182e+06, 6.14731e+06, ..., 2.75652e-08, 3.8792e-08, 5.44561e-08, ]
+output.nucleation_threshold = [2.52217e+09, 2.37766e+09, 2.24821e+09, ..., 9.00622e+08, 8.85519e+08, 8.70748e+08, ]
+</code></pre></div>
+<p>We've used ellipsis to omit unnecessary detail. The <code>Object</code> type is just a
+simple trick to allow us to dynamically create fields for the <code>settings</code>,
+<code>input</code>, and <code>output</code> variables.</p>
+<p>The important thing here is that all input and output lists in this module have
+7100 values, and these values all appear in the same order. The first value in
+each list belongs to the first member of the ensemble, the second value to the
+second member, and so on, up to the last value in each list, which belongs to
+the last ensemble member.</p>
+<p>This allows you to write postprocessing logic that can easily associate input
+and output variables. You can easily write a postprocessor to do sensitivity
+analysis, parameter estimation, or comparisons of two or more different
+algorithms or codes.</p>
+<p>You can even write a conversion utility that imports the Python module and
+writes it to another format. For an example of this, take a look at the
+<a href="https://github.com/eagles-project/skywalker/blob/main/src/py2ncl">py2ncl</a>
+program included with Skywalker. <code>py2ncl</code> converts Skywalker output to a text
+file that can be used with legacy <a href="https://www.ncl.ucar.edu">NCL</a> programs.
+(The latest version of NCL is adopting Python as its language.)</p>
+<h2 id="nans">NaNs</h2>
+<p>Sometimes a Skywalker program emits a NaN, either as the result of pathological
+numeric arithmetic or as an indicator that the value is undefined. In this case,
+the value is written using Python's <code>nan</code> representation. This ensures a
+faithful translation for all data, no matter what the circumstance.</p>
+<h2 id="array-valued-outputs">Array-Valued Outputs</h2>
+<p>Just as you can store multiple values in a single input array parameter, you
+can write outputs with multiple values stored in an array. And just as input
+array parameters are indicated with two sets of braces in a YAML input file,
+output array values are similarly indicated with two sets of braces, even for
+ensembles having only a single member. The syntax is easy and intuitive, mostly
+because YAML and Python use the same format for defining lists.</p>
+<p>Skywalker doesn't impose any structure on array-valued outputs. For example,
+it's possible to write arrays with different sizes to a single output variable.
+Therefore, your program must write array-valued outputs in the most sensible way
+for your work.</p>
 
 
 
@@ -476,15 +553,30 @@ the Department of Energy's global climate model. The source code is available on
     
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
+        
+        <a href="../input/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Input Format (YAML)" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Input Format (YAML)
+            </div>
+          </div>
+        </a>
+      
       
         
-        <a href="installation/" class="md-footer__link md-footer__link--next" aria-label="Next: Installation" rel="next">
+        <a href="../api/" class="md-footer__link md-footer__link--next" aria-label="Next: The Skywalker API" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Installation
+              The Skywalker API
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -515,12 +607,12 @@ the Department of Energy's global climate model. The source code is available on
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indices", "navigation.instant", "navigation.sections", "navigation.top"], "search": "assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indices", "navigation.instant", "navigation.sections", "navigation.top"], "search": "../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.078830c0.min.js"></script>
+      <script src="../assets/javascripts/bundle.078830c0.min.js"></script>
       
-        <script src="javascript/mathjax.js"></script>
+        <script src="../javascript/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
