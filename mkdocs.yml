@@ -4,6 +4,7 @@ nav:
   - 'index.md'
   - 'project_objectives.md'
   - 'team.md'
+  - 'presentations.md'
 
 edit_uri: ""
 
@@ -45,3 +46,5 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 repo_url: https://github.com/RDycore/RDycore.github.io
+
+use_directory_urls: false
