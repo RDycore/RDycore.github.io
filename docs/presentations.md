@@ -1,6 +1,8 @@
 
 ## **2023**
 
+- Xu, D., Bisht, G., Engwirda, D., Feng, D., and Tan, Z. The Impacts of Mesh Resolution on Simulation of Flooding using a 2D Shallow Water Equation Model: Hurricane Harvey Case Study, AGU Fall Meeting, 11-15, 2023, San Francisco, CA. ([link](https://www.dropbox.com/scl/fi/ao20pnlvseok2t0n0xzsx/Xu_Harvey_Flooding_Poster_AGU_2023.pdf?rlkey=1te223vy5zhj6fh8s0zwv1cwn&dl=0))
+
 - Bisht, G., Adams, M., Brown, J., Cowie, A., Engwirda, D., Feng, D., Hao, D., Johnson, Knepley, M., Kumar, M., Raman, A., Tan, Z., and Xu, D., 2023, Capturing the Dynamics of Compound Flooding in E3SM, SciDAC PI Meeting, 12-14 September, Rockville, MD. ([link](https://www.dropbox.com/scl/fi/hgqy32zmfyokf6u9a5gov/RDycore_2023_09_SciDAC_PI_Meeting_Presentation.pdf?rlkey=7qskk1edhu1d1piin434c4ee2&dl=0))
 
 - Bisht, G., Adams, M., Brown, J., Cowie, A., Engwirda, D., Feng, D., Hao, D., Johnson, Knepley, M., Kumar, M., Raman, A., Tan, Z., and Xu, D., 2023, Capturing the Dynamics of Compound Flooding: Project Overview, SciDAC PI Meeting, 12-14 September, Rockville, MD. ([link](https://www.dropbox.com/scl/fi/51y6u381migq3hvdmxse1/BishtGautam_BER_Poster_1.pdf?rlkey=o1k11ky26ew5rktxpive9uhet&dl=0))
