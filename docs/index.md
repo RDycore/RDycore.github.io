@@ -7,7 +7,7 @@ sediment dynamics (SD) and riverine saltwater intrusion (rSWI) at global scales 
 a future climate is well recognized. 
 
 However, several shortcomings in the current version of the Department of Energy’s (DOE’s) 
-[Energy Exascale Earth System Model (E3SM)](https:e3sm.org), 
+[Energy Exascale Earth System Model (E3SM)](https://e3sm.org), 
 including those related to model structure, lack of mechanistic representation of key processes, 
 and coarse spatial resolution, pose limits. 
 Efforts towards improved predictions using E3SM are also restricted by the lack of portability of 
